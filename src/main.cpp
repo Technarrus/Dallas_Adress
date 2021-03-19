@@ -6,7 +6,7 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
  
-OneWire oneWire(D4); // вход датчиков 18b20
+OneWire oneWire(D2); // вход датчиков 18b20
 DallasTemperature ds(&oneWire);
 
 DeviceAddress sensor0;
